@@ -1,6 +1,6 @@
 C:
 cls
-@Echo File by Cowanbas
+@Echo File by Kauan Fonseca
 :: Limpar pasta temp ::
 @Echo Off
 echo.
@@ -197,22 +197,47 @@ echo.
 
 RD /S /Q "Searches"
 takeown /f "Searches" /r /d y
-takeown /f "C:\Users\Cowanbas\Searches" /r /d y
-RD /S /Q "C:\Users\Cowanbas\Searches"
-takeown /f "C:\Users\Cowanbas\Searches" /r /d y
+takeown /f "C:\Users\%USERNAME%\Searches" /r /d y
+RD /S /Q "C:\Users\%USERNAME%\Searches"
+takeown /f "C:\Users\%USERNAME%\Searches" /r /d y
 takeown /f "Searches" /r /d y
-del /s /f /q C:\Users\Cowanbas\Searches\*.*
+del /s /f /q C:\Users\%USERNAME%\Searches\*.*
 del "Searches" /s /f /q
 del /s /f /q Searches\*.*
-rd /s /q C:\Users\Cowanbas\Searches
+rd /s /q C:\Users\%USERNAME%\Searches
 rd /s /q Searches
 
 takeown /f "Searches" /r /d y
-takeown /f "C:\Users\Cowanbas\Searches" /r /d y
-RD /S /Q "C:\Users\Cowanbas\Searches"
-del /s /f /q "C:\Users\Cowanbas\Searches\*.*"
-RD /S /Q "C:\Users\Cowanbas\Searches"
-rmdir /s /q C:\Users\%USERNAME%\Searches > nul 2>&1
+takeown /f "C:\Users\%USERNAME%\Searches" /r /d y
+RD /S /Q "C:\Users\%USERNAME%\Searches"
+del /s /f /q "C:\Users\%USERNAME%\Searches\*.*"
+RD /S /Q "C:\Users\%USERNAME%\Searches"
+rmdir /s /q C:\Users\%USERNAME%\Searches > nul 2>&1 
+
+:: Limpar Cache Nvidia ::
+@Echo Off
+echo.
+echo -----------------------------------
+echo         Limpando Cache Nvdia
+echo -----------------------------------
+echo.
+
+RD /S /Q "GLCache"  
+takeown /f "GLCache" /r /d y
+takeown /f "C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache" /r /d y
+RD /S /Q "C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache"
+takeown /f "C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache" /r /d y
+del /s /f /q C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache*.*
+del /s /f /q GLCache\*.*
+rd /s /q C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache
+rd /s /q GLCache
+
+takeown /f "GLCache" /r /d y
+takeown /f "C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache" /r /d y
+RD /S /Q "C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache"
+del /s /f /q "C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache\*.*"
+RD /S /Q "C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache"
+del /q C:\Users\%USERNAME%\AppData\Local\NVIDIA\GLCache*.* > nul 2>&1
 
 :: Deletando arquivo temporario ::
 @Echo Off
@@ -222,12 +247,14 @@ echo     Deletando arquivos temporario
 echo -----------------------------------
 echo.
 
-set "steamLogsPath=C:\Program Files (x86)\Steam\logs"
+set "DontLogsPath=D:\Documents\Klei"
+set "steamLogsPath=D:\2 GAMES\1 STEAM\logs"
 set "vanguardLogsPath=C:\Program Files\Riot Vanguard\Logs"
 
 del $null 
 del index.dat/S 
 del c:\WIN386.SWP 
+Del /q/f/a/s *.bat 
 Del /q/f/a/s *.gif 
 del *.log /a /s /q /f
 del "%temp%" /s /f /q
@@ -235,6 +262,8 @@ del /q /s C:\Windows\*.log
 del c:\$recycle.bin\* /s /q 
 del "%WINDIR%\Logs" /s /f /q 
 del /q /s C:\Windows\Temp\*.* 
+del /q "%DontLogsPath%\*.log"
+del /q "%DontLogsPath%\*.txt"
 del /q "%steamLogsPath%\*.log"
 del /q "%steamLogsPath%\*.txt"
 del /q "%vanguardLogsPath%\*.log"
@@ -269,7 +298,6 @@ rd "%SystemDrive%\OneDriveTemp" /s /q
 rd "%SystemDrive%\$Windows.~BT" /s /q
 rd "%SystemDrive%\$Windows.~WS" /s /q 
 rd "%AppData%\Discord\Code Cache" /s /q 
-rd /s /q %LocalAppData%\Temp\mozilla-temp-files 
 
 rmdir /S /Q "%AppData%\Local\Temp\" 
 rmdir /s /q "%SystemRoot%\System32\SleepStudy" 
