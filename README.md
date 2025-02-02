@@ -80,7 +80,7 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 
 "Comandos utilizados"
 
-"Os comandos utilizados para limpar as pastas e os logs temporarios do windows."
+Os comandos utilizados para limpar as pastas e os logs temporarios do windows.
 
 
 
