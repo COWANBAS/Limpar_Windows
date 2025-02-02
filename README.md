@@ -76,7 +76,7 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 
 *Limpa a pasta GLCache que armazena dados de cache da Nvidia.*
 
-
+# LIMPAR OS LOGS
 
 
 
