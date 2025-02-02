@@ -82,8 +82,9 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 
 Os comandos utilizados para limpar as pastas e os logs temporarios do windows.
 
+ *Definir variáveis de caminho:*
 
-
+*set "EXEMPLO=D:\Documents\EXEMPLO":* "Define a variável de caminho DontLogsPath"
 
 
 
