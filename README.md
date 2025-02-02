@@ -2,23 +2,30 @@
 
 Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporários e cache no sistema Windows. Ele realiza a remoção de arquivos em diversas pastas padrão que acumulam dados temporários ou de cache.
 
-"Limpar a pasta temp"
+"Comandos Iniciais"
 
-![image](https://github.com/user-attachments/assets/870d38ab-c87f-41b0-ac89-17812f3eee8a)
+Os comandos iniciais para limpar as pastas e repor elas:
 
 *@Echo Off: Desativa a exibição dos comandos no console.*
 
 *echo. e echo ---: Exibe mensagens informativas.*
 
-*RD /S /Q "temp": Remove a pasta temp no diretório atual.*
+*RD /S /Q "": Remove a pasta especifica no diretório atual.*
 
-*takeown /f "temp" /r /d y: Toma posse da pasta temp e seus subdiretórios.*
+*takeown /f "" /r /d y: Toma posse da pasta especifica e seus subdiretórios.*
 
-*takeown /f "C:\Windows\Temp" /r /d y: Toma posse da pasta Temp no diretório do Windows.*
+*takeown /f "C:\Windows\" /r /d y: Toma posse da pasta especifica no diretório do Windows.*
 
-*del /s /f /q C:\windows\temp\*.*: Deleta todos os arquivos da pasta Temp do Windows.*
+*del /s /f /q C:\windows\ \*.*: Deleta todos os arquivos da pasta especifica do Windows.*
 
-*rd /s /q C:\windows\temp: Remove a pasta Temp do Windows.*
+*rd /s /q C:\windows\: Remove a pasta especifica do Windows.*
+
+Com esses comandos da para limpar as pastas escolhidas que no caso foram as pastas "Temp" %Temp%" "Prefetch" "Recent" "Pip" "Cache" e "Logs", que são pastas que acumulam sempre muitos arquivos temporarios e eventualmente trazendo uma certa lentidão ao computador depedendo do tempo de uso e da quantidade de arquivos pode ser que ele desfragmente muito o computador, sempre e bom manter seu computador limpo para isso que fiz esse arquivo .bat
+
+"Limpar a pasta temp"
+
+![image](https://github.com/user-attachments/assets/870d38ab-c87f-41b0-ac89-17812f3eee8a)
+
 
 "Limpar a pasta %temp%"
 
