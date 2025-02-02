@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/371543fc-00c6-4106-9ecc-de5b7012ee15)# SCRIPT
+# SCRIPT
 
 Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporários e cache no sistema Windows. Ele realiza a remoção de arquivos em diversas pastas padrão que acumulam dados temporários ou de cache.
 
