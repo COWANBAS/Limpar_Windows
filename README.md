@@ -4,7 +4,7 @@ Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporár
 
 "Comandos Utilizados"
 
-Os comandos utilizados para limpar as pastas e repor elas:
+Os comandos utilizados para limpar as pastas e excluir elas (O windows eventualmente as cria novamente):
 
 *@Echo Off: Desativa a exibição dos comandos no console.*
 
@@ -77,6 +77,8 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 *Limpa a pasta GLCache que armazena dados de cache da Nvidia.*
 
 # LIMPAR OS LOGS
+
+"Comandos utilizados"
 
 
 
