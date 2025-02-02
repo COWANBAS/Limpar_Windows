@@ -2,7 +2,7 @@
 
 Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporários e cache no sistema Windows. Ele realiza a remoção de arquivos em diversas pastas padrão que acumulam dados temporários ou de cache.
 
-"Comandos Utilizados"
+"Comandos Utilizados
 
 Os comandos utilizados para limpar as pastas e excluir elas (O windows eventualmente as cria novamente):
 
