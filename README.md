@@ -1,10 +1,10 @@
-# SCRIPT
+# ARQUIVOS TEMPORARIOS
 
 Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporários e cache no sistema Windows. Ele realiza a remoção de arquivos em diversas pastas padrão que acumulam dados temporários ou de cache.
 
-"Comandos Iniciais"
+"Comandos Utilizados"
 
-Os comandos iniciais para limpar as pastas e repor elas:
+Os comandos utilizados para limpar as pastas e repor elas:
 
 *@Echo Off: Desativa a exibição dos comandos no console.*
 
@@ -26,6 +26,7 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 
 ![image](https://github.com/user-attachments/assets/870d38ab-c87f-41b0-ac89-17812f3eee8a)
 
+*Limpa a pasta temp*
 
 "Limpar a pasta %temp%"
 
@@ -48,5 +49,39 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 "Limpar a pasta Pip"
 
 ![image](https://github.com/user-attachments/assets/6f1d5a6a-91fa-46f5-b9eb-0401b0b6b353)
+
+*Limpa a pasta pip que armazena dados temporários do gerenciador de pacotes Python.*
+
+"Limpar a pasta Cache"
+
+![image](https://github.com/user-attachments/assets/aafe8195-0205-4b84-a4d1-4771855dacb9)
+
+*Limpa a pasta Cache do usuário atual.*
+
+"Limpar a pasta Logs"
+
+![image](https://github.com/user-attachments/assets/53e91367-e13f-4f9b-99d1-ff8a069f0071)
+
+*Limpa a pasta Logs que armazena logs do sistema e aplicativos.*
+
+"Limpar a pasta pesquisas"
+
+![image](https://github.com/user-attachments/assets/79fd4cec-1328-4289-9769-1c38fb4263c2)
+
+*Limpa a pasta Searches que armazena pesquisas salvas do usuário.*
+
+"Limpar a pasta GLCache (Cache Nvidia)"
+
+![image](https://github.com/user-attachments/assets/86321aef-5077-442c-87b2-8d38c26cb6d9)
+
+*Limpa a pasta GLCache que armazena dados de cache da Nvidia.*
+
+
+
+
+
+
+
+
 
 
