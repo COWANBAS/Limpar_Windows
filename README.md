@@ -82,9 +82,52 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 
 Os comandos utilizados para limpar as pastas e os logs temporarios do windows.
 
- *Definir variáveis de caminho:*
+"Definir variáveis de caminho"
 
-*set "EXEMPLO=D:\Documents\EXEMPLO": Define a variável de caminho DontLogsPath*
+*set "EXEMPLO=D:\EXEMPLO": Define a variável de caminho EXEMPLO*
 
+"Comando para deletar arquivos. As opções usadas são:"
 
+*/q: Modo silencioso (não pergunta confirmação).*
 
+*/s: Deleta arquivos em subpastas.*
+
+*/f: Força a exclusão de arquivos somente leitura.*
+
+*/a: Seleciona arquivos com atributos específicos.*
+
+OBS: se quiser adicionar alguma pasta de log especifica adicione a variavel do caminho usada em exemplo logo apos coloque outra com o comando "del /q "%NOME%*.log" para que seja deletado apenas os logs da pasta desejada
+
+"Remover diretórios"
+
+*/s: Remove todos os subdiretórios e arquivos no diretório especificado.*
+
+*/q: Modo silencioso (não pergunta confirmação).*
+
+*rmdir /S /Q [caminho]: Equivalente a rd, remove diretórios e seus conteúdos silenciosamente.*
+
+"Deletando arquivos temporários e logs"
+
+![image](https://github.com/user-attachments/assets/48fb06eb-893a-43f5-9f31-c0af5583dfdf)
+
+![image](https://github.com/user-attachments/assets/6652575b-82fc-4e89-9b3b-bef876f7023f)
+
+![image](https://github.com/user-attachments/assets/52d47e96-bf6e-47d9-9b2d-4f080e7e7971)
+
+*Deleta diversos arquivos temporários, logs, e cache de várias pastas do sistema.*
+
+"Removendo histórico da área de transferência"
+
+![image](https://github.com/user-attachments/assets/a6a0b984-0e9a-4ab0-8df5-a94a049b7e04)
+
+*Limpa a área de transferência.*
+
+"Executando limpeza de disco"
+
+![image](https://github.com/user-attachments/assets/6d1e05b8-ac23-45ec-afb2-8cb4e8b4285a)
+
+*Executa a ferramenta de limpeza de disco do Windows (cleanmgr.exe) para realizar uma limpeza mais profunda dos discos.*
+
+# CONCLUSÃO
+
+*Este arquivo batch é um script de limpeza abrangente que remove uma vasta gama de arquivos temporários, cache e logs do sistema Windows, ajudando a liberar espaço em disco e melhorar o desempenho do sistema.*
