@@ -20,7 +20,7 @@ Os comandos iniciais para limpar as pastas e repor elas:
 
 *rd /s /q C:\windows\: Remove a pasta especifica do Windows.*
 
-Com esses comandos da para limpar as pastas escolhidas que no caso foram as pastas "Temp" %Temp%" "Prefetch" "Recent" "Pip" "Cache" e "Logs", que são pastas que acumulam sempre muitos arquivos temporarios e eventualmente trazendo uma certa lentidão ao computador depedendo do tempo de uso e da quantidade de arquivos pode ser que ele desfragmente muito o computador, sempre e bom manter seu computador limpo para isso que fiz esse arquivo .bat
+Com esses comandos, é possível limpar as pastas escolhidas, que no caso são as pastas "Temp", "%Temp%", "Prefetch", "Recent", "Pip", "Cache" e "Logs". Essas pastas acumulam muitos arquivos temporários, o que pode eventualmente causar lentidão no computador. Dependendo do tempo de uso e da quantidade de arquivos, pode ser que o computador fique fragmentado. Portanto, é sempre bom manter o computador limpo. Para isso, criei este arquivo .bat.
 
 "Limpar a pasta temp"
 
