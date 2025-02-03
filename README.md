@@ -1,8 +1,5 @@
 # ARQUIVOS TEMPORARIOS
 
-![Exemplo](https://github.com/user-attachments/assets/daee84ae-df1e-45ae-b040-07f14ac19331)
-
-
 Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporários e cache no sistema. Ele realiza a remoção de arquivos em diversas pastas padrão que acumulam dados temporários ou de cache.
 
 "Comandos Utilizados"
@@ -134,3 +131,5 @@ OBS: se quiser adicionar alguma pasta de log especifica adicione a variavel do c
 # CONCLUSÃO
 
 *Este arquivo batch é um script de limpeza abrangente que remove uma vasta gama de arquivos temporários, cache e logs do sistema Windows, ajudando a liberar espaço em disco e melhorar o desempenho do sistema.*
+
+https://github.com/user-attachments/assets/e4a57431-42c3-4c74-b408-a4595a5b431f
