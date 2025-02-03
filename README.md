@@ -1,6 +1,6 @@
 # ARQUIVOS TEMPORARIOS
 
-https://github.com/user-attachments/assets/e27a32ed-d5ca-4b29-bcb0-01cf7b4aeb29
+https://github.com/user-attachments/assets/a059bd87-78c8-445d-996d-8bacd4063fdd
 
 Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporários e cache no sistema. Ele realiza a remoção de arquivos em diversas pastas padrão que acumulam dados temporários ou de cache.
 
