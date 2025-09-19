@@ -106,6 +106,33 @@ del /s /f /q "C:\Windows\Recent\*.*"
 RD /S /Q "C:\Windows\Recent"
 del /q C:\Windows\Recent\*.* > nul 2>&1
 
+:: Limpar pasta Pip ::
+@Echo Off
+echo.
+echo -----------------------------------
+echo         Limpando Pasta Pip
+echo -----------------------------------
+echo.
+
+RD /S /Q "pip"
+takeown /f "pip" /r /d y
+takeown /f "C:\Users\%USERNAME%\AppData\Local\pip" /r /d y
+RD /S /Q "C:\Users\%USERNAME%\AppData\Local\pip"
+takeown /f "C:\Users\%USERNAME%\AppData\Local\pip" /r /d y
+takeown /f "pip" /r /d y
+del /s /f /q C:\windows\pip\*.*
+del "pip" /s /f /q
+del /s /f /q pip\*.*
+rd /s /q C:\windows\pip
+rd /s /q pip
+
+takeown /f "pip" /r /d y
+takeown /f "C:\Users\%USERNAME%\AppData\Local\pip" /r /d y
+RD /S /Q "C:\Users\%USERNAME%\AppData\Local\pip"
+del /s /f /q "C:\Users\%USERNAME%\AppData\Local\pip\*.*"
+RD /S /Q "C:\Users\%USERNAME%\AppData\Local\pip"
+rmdir /s /q C:\Users\%USERNAME%\AppData\Local\pip > nul 2>&1
+
 :: Limpar pasta Cache ::
 @Echo Off
 echo.
@@ -220,14 +247,13 @@ echo     Deletando arquivos temporario
 echo -----------------------------------
 echo.
 
-set "DontLogsPath=D:\Documents\Klei"
+:: Coloque os diretorios de logs que preferir ::
+
 set "steamLogsPath=D:\2 GAMES\1 STEAM\logs"
-set "vanguardLogsPath=C:\Program Files\Riot Vanguard\Logs"
 
 del $null 
 del index.dat/S 
 del c:\WIN386.SWP 
-Del /q/f/a/s *.bat 
 Del /q/f/a/s *.gif 
 del *.log /a /s /q /f
 del "%temp%" /s /f /q
