@@ -1,4 +1,4 @@
-# ARQUIVOS TEMPORARIOS
+# ARQUIVOS TEMPORÁRIOS
 
 Este arquivo batch tem como objetivo limpar várias pastas de arquivos temporários e cache no sistema. Ele realiza a remoção de arquivos em diversas pastas padrão que acumulam dados temporários ou de cache.
 
