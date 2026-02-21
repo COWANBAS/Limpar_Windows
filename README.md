@@ -22,32 +22,32 @@ Com esses comandos, é possível limpar as pastas escolhidas, que no caso são a
 
 # LIMPAR ARQUIVOS TEMPORARIOS
 
-temp
+Temp:
 
 ![image](https://github.com/user-attachments/assets/870d38ab-c87f-41b0-ac89-17812f3eee8a)
 
-%temp%
+%temp%:
 
 ![image](https://github.com/user-attachments/assets/e28d2afc-cc40-41a3-a75d-c3edeb53d6c5)
 
 
-Prefetch
+Prefetch:
 
 ![image](https://github.com/user-attachments/assets/ce987f83-09c0-4e0b-abd4-b9d9a295cea3)
 
-Recent
+Recent:
 
 ![image](https://github.com/user-attachments/assets/f53187df-3f3a-49dc-8c75-1fdca5c93665)
 
-Pip
+Pip:
 
 ![image](https://github.com/user-attachments/assets/6f1d5a6a-91fa-46f5-b9eb-0401b0b6b353)
 
-Cache
+Cache:
 
 ![image](https://github.com/user-attachments/assets/aafe8195-0205-4b84-a4d1-4771855dacb9)
 
-Logs
+Logs:
 
 ![image](https://github.com/user-attachments/assets/53e91367-e13f-4f9b-99d1-ff8a069f0071)
 
@@ -55,7 +55,7 @@ Searchses
 
 ![image](https://github.com/user-attachments/assets/79fd4cec-1328-4289-9769-1c38fb4263c2)
 
-Glcache
+Glcache:
 
 ![image](https://github.com/user-attachments/assets/86321aef-5077-442c-87b2-8d38c26cb6d9)
 
