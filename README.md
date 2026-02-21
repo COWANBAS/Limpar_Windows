@@ -61,15 +61,13 @@ Glcache
 
 # LIMPAR OS LOGS
 
-"Comandos utilizados"
-
 Os comandos utilizados para limpar as pastas e os logs temporarios do windows:
 
-"Definir variáveis de caminho"
+*Definir variáveis de caminho*
 
 *set "EXEMPLO=D:\EXEMPLO": Define a variável de caminho EXEMPLO*
 
-"Comando para deletar arquivos. As opções usadas são:"
+Comando para deletar arquivos. As opções usadas são:
 
 */q: Modo silencioso (não pergunta confirmação).*
 
@@ -81,7 +79,7 @@ Os comandos utilizados para limpar as pastas e os logs temporarios do windows:
 
 OBS: se quiser adicionar alguma pasta de log especifica adicione a variavel do caminho usada em exemplo logo apos coloque outra com o comando "del /q "%NOME%*.log" para que seja deletado apenas os logs da pasta desejada
 
-"Remover diretórios"
+Remover diretórios:
 
 */s: Remove todos os subdiretórios e arquivos no diretório especificado.*
 
@@ -89,7 +87,7 @@ OBS: se quiser adicionar alguma pasta de log especifica adicione a variavel do c
 
 *rmdir /S /Q [caminho]: Equivalente a rd, remove diretórios e seus conteúdos silenciosamente.*
 
-"Deletando arquivos temporários e logs"
+Deletando arquivos temporários e logs:
 
 ![image](https://github.com/user-attachments/assets/48fb06eb-893a-43f5-9f31-c0af5583dfdf)
 
@@ -99,13 +97,13 @@ OBS: se quiser adicionar alguma pasta de log especifica adicione a variavel do c
 
 *Deleta diversos arquivos temporários, logs, e cache de várias pastas do sistema.*
 
-"Removendo histórico da área de transferência"
+Removendo histórico da área de transferência:
 
 ![image](https://github.com/user-attachments/assets/a6a0b984-0e9a-4ab0-8df5-a94a049b7e04)
 
 *Limpa a área de transferência.*
 
-"Executando limpeza de disco"
+Executando limpeza de disco:
 
 ![image](https://github.com/user-attachments/assets/6d1e05b8-ac23-45ec-afb2-8cb4e8b4285a)
 
